@@ -5,18 +5,18 @@ public class _00_1D_Array_Methods {
 	// of the integers in the array being passed in
 	public static int sumIntArray(int[] values) {
 		int sum = 0;
-for (int i = 0; i < values.length; i++) {
-	sum=sum+values[i];
-}
+		for (int i = 0; i < values.length; i++) {
+			sum = sum + values[i];
+		}
 		return sum;
 	}
 
 	// 2. Complete the method so that it returns the average of all
 	// of the integers in the array being passed in
 	public static double averageIntArray(int[] values) {
-double average=0;
-int sum=sumIntArray(values);
-	average=(double)(sum/values.length);
+		double average = 0;
+		int sum = sumIntArray(values);
+		average = (double) (sum / values.length);
 		return average;
 	}
 
@@ -24,8 +24,13 @@ int sum=sumIntArray(values);
 	// array contains the value specified by the second parameter.
 	// It should otherwise return false.
 	public static boolean containsIntValue(int[] array, int value) {
-
+		for (int i = 0; i < array.length; i++) {
+			if (array[i] == value) {
+				return true;
+			}
+		}
 		return false;
+
 	}
 
 	// 4. Complete the method so that it returns the index of the,
