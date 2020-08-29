@@ -72,10 +72,10 @@ public class MoreArrayFun {
 		for (int i = 0; i < letters.length; i++) {
 			System.out.print(letters[i] + ", ");
 		}
-		Collections.shuffle(Arrays.asList(letters));
-		System.out.println("");
-		for (int i = 0; i < letters.length; i++) {
-			System.out.print(letters[i] + ", ");
-		}
+//		Collections.shuffle(Arrays.asList(letters));
+//		System.out.println("");
+//		for (int i = 0; i < letters.length; i++) {
+//			System.out.print(letters[i] + ", ");
+//		}
 	}
 }
