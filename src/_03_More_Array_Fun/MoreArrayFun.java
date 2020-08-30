@@ -8,12 +8,13 @@ public class MoreArrayFun {
 	// 1. Create a main method to test the other methods you write.
 	public static void main(String[] args) {
 		MoreArrayFun arrays = new MoreArrayFun();
+		System.out.println("\nPrint Strings: \n");
 		arrays.printStrings();
-		System.out.println("\nNext Method");
+		System.out.println("\n\nPrint Strings in Reverse Order: \n");
 		arrays.printStringsReverse();
-		System.out.println("\nNext Method");
+		System.out.println("\n\nPrint Every Other String: \n");
 		arrays.printEveryOtherString();
-		System.out.println("\nNext Method");
+		System.out.println("\n\nPrint Strings in Random Order: \n");
 		arrays.printRandomOrder();
 	}
 
